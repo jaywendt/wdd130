@@ -14,7 +14,7 @@ header {
     grid-template-columns: 150px auto;
 }
 .logo {
-    width: 80px;
+    width: 0 auto;
 }
 #hero {
     display: grid;
@@ -35,11 +35,14 @@ header {
     text-align: center;
 }
 #hero-msg h4 {
-    color: white;
+    color: #0A090C;
+    font-size: 4em;
+    background-color: #FDFFFC;
 }
 .home-title {
-    color:#FDFFFC;
+    color:#0A090C;
     font-family: 'GFS+Didot';
-    font-size: 10em;
-    margin-top: 10px
+    font-size: 6em;
+    margin-top: 10px;
+    background-color: #FDFFFC;
 }
