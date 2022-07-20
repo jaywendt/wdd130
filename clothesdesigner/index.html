@@ -38,6 +38,56 @@
                 <img class="image-2" src="images/rsz_1rsz_pexels-kaysha-1093926 (1).jpg" alt="Give them a show">
                 <h2>If you haven’t really figured out a style for yourself yet, or just don’t know how to pick one, never fear!  Our style specialists can help you focus in on what kind of fashion best helps you and makes you feel great.  Feeling sporty?  We have experts who can help you maximize your body’s efficiency through proper footwear and appropriate materials for the gym or playing field.  Want to show off your inner rockstar?  Work with us and we can get you on that stage looking, and feeling, like a legend.  We will work with you to bring out the sense of style that fits right for YOU.</h2>
             </section>
+            <head>
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+              <style>
+              .container {
+                position: relative;
+                width: 50%;
+              }
+              
+              .image {
+                opacity: 1;
+                display: block;
+                width: 100%;
+                height: auto;
+                transition: .5s ease;
+                backface-visibility: hidden;
+              }
+              
+              .middle {
+                transition: .5s ease;
+                opacity: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                text-align: center;
+              }
+              
+              .container:hover .image {
+                opacity: 0.3;
+              }
+              
+              .container:hover .middle {
+                opacity: 1;
+              }
+              
+              .text {
+                background-color: #04AA6D;
+                color: white;
+                font-size: 16px;
+                padding: 16px 32px;
+              }
+              </style>
+              </head>
+              <body>
+              <div class="container">
+                <img src="images/rsz_1rsz_pexels-evg-kowalievska-1055691 (1).jpg" alt="Avatar" class="image" style="width:100%">
+                <div class="middle">
+                  <div class="text">Find your own style!</div>
+                </div>
         </Main>
         <footer>
             <h3>Finalized Fantasies &copy; 2022 - Johannes Wendt</h3>
@@ -53,62 +103,6 @@
                     <img src="images/instagram.png" alt="instagram icon">
                 </a>
             </div>
-        </footer>
-    </div>
-    <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-    .container {
-      position: relative;
-      width: 50%;
-    }
-    
-    .image {
-      opacity: 1;
-      display: block;
-      width: 100%;
-      height: auto;
-      transition: .5s ease;
-      backface-visibility: hidden;
-    }
-    
-    .middle {
-      transition: .5s ease;
-      opacity: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      text-align: center;
-    }
-    
-    .container:hover .image {
-      opacity: 0.3;
-    }
-    
-    .container:hover .middle {
-      opacity: 1;
-    }
-    
-    .text {
-      background-color: #04AA6D;
-      color: white;
-      font-size: 16px;
-      padding: 16px 32px;
-    }
-    </style>
-    </head>
-    <body>
-    
-    <h2>Opacity with Box</h2>
-    <p>Hover over the image to see the effect.</p>
-    
-    <div class="container">
-      <img src="images/rsz_1rsz_pexels-evg-kowalievska-1055691 (1).jpg" alt="Avatar" class="image" style="width:100%">
-      <div class="middle">
-        <div class="text">Find your own style!</div>
-      </div>
-    </div>    
+        </footer> 
 </body>
 </html>
