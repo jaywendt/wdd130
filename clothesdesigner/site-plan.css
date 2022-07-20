@@ -15,9 +15,9 @@ Fonts are separated by a | */
   --paragraph-font: "Libre Baskerville, regular 400";
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: black;  /* headlines on a white background */ 
+  --headline-color-on-white: #0A090C;  /* headlines on a white background */ 
   --headline-color-on-color: #679436; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #0A090C; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #9448BC; /* paragraph text on a colored background */ 
   --paragraph-background-color: #9448BC  ;
   --nav-link-color: #396E94;
